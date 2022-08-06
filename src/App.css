@@ -22,6 +22,28 @@
   margin: 10px;
 }
 
+.heroContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heroText,
+p {
+  color: #fffff2;
+  text-shadow: 1px 1px black;
+  font-family: fantasy;
+  font-size: 150px;
+  /* padding-bottom: 100px; */
+}
+
 .heroBG {
   border: none;
   width: 100%;
