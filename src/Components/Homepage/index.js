@@ -1,9 +1,17 @@
 import React from "react";
+import heroBackground from "../../Assets/Images/background.jpg";
+// import { Container } from "react-bootstrap";
 
 function Homepage() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <div>
+        <img
+          className="heroBG"
+          src={heroBackground}
+          alt="Picture of a cars steering wheel"
+        ></img>
+      </div>
     </div>
   );
 }

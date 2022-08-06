@@ -4,20 +4,27 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
 
+import NavLink from "react-bootstrap/NavLink";
+
 function Navigation() {
   //   const tabs = ["Gallery", "About"];
 
   return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand href="#home">Photography project</Navbar.Brand>
-        <Col md={{ span: 4, offset: 4 }}>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Gallery</Nav.Link>
-            <Nav.Link href="#features">About</Nav.Link>
-          </Nav>
-        </Col>
-      </Container>
+    <Navbar
+      scrolling
+      expand="md"
+      fixed="top"
+      id="navbar"
+      className="justify-content-end"
+    >
+      <Nav id="navContent">
+        <Nav.Link className="galleryLink" href="#home">
+          Gallery
+        </Nav.Link>
+        <Nav.Link className="aboutLink" href="#features">
+          About
+        </Nav.Link>
+      </Nav>
     </Navbar>
   );
 }
