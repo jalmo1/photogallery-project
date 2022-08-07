@@ -16,15 +16,12 @@ const breakPoints = [
 function Homepage() {
   return (
     <div className="heroContainer">
-      <div className="heroText">
-        <p>Rosa</p>
-        <p>Photography</p>
-      </div>
       <img
         className="heroBG"
         src={heroBackground}
         alt="A cars steering wheel"
       ></img>
+
       <div id="secondaryText">
         <Container>
           <Row>
