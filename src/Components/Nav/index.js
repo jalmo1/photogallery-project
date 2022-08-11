@@ -20,8 +20,6 @@ function Navigation() {
           className="position-absolute"
         >
           <Col md={4}>
-            {/* <img src={logo} alt="camera" height={100}></img> */}
-            <h1 className="navBrandName">Rosa Photography</h1>
           </Col>
           <Col xs={6}></Col>
           <Col>
