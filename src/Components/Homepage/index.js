@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Nav";
 import Col from "react-bootstrap/Col";
 import heroBackground from "../../Assets/Images/background.jpg";
-import Gallery from "../Gallery";
+import CarouselPics from "../Carousel/index.js";
 
 function Homepage() {
   return (
@@ -40,7 +40,7 @@ function Homepage() {
         </Container>
       </div>
       <div>
-        <Gallery />
+        <CarouselPics />
       </div>
     </div>
   );
