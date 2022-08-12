@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-#navContent {
-  margin-right: 15px;
+#navbar, ul {
   font-size: 25px;
-  justify-content: left;
+  color: white;
+  list-style: none;
 }
 
 .navBrandName {
