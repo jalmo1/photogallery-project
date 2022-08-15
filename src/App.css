@@ -70,6 +70,17 @@
   width: 100%;
 }
 
+.galleryPage {
+  background-color: black;
+  color: white;
+}
+
+.galleryTitle {
+  font-family: Chalkduster, fantasy;
+  padding-top: 25px;
+  /* border-bottom: 2px solid white; */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
